@@ -1,0 +1,37 @@
+/*    Temporary quickfix for header and footer   */
+.hdr_1 {
+    font-size: 11px !important;
+}
+
+.hdr_2 a, .hdr_2 a:link, .hdr_2 a:visited {
+    color : #ffffff !important;
+}
+
+.hdr_2 a:hover{
+	color : #c9c9c9 !important;
+}
+
+.header_popup {
+    font-size: 12px !important;
+}
+
+.footer_container {
+    box-sizing: content-box !important;
+}
+
+.footer_container .footer_end {
+    font-size: 11px !important;
+}
+
+.ui.footer-simple.wrapper { max-width: 1170px; width: 100%; padding: 0;}
+
+@media only screen and (max-width: 567px) {
+	.members_sign_wrapper { max-width: 400px !important; width: 100%; margin: 0 auto; padding: 0;}
+	.panel_input_wrapper { max-width: 400px; width: 100%; }
+}
+
+@media only screen and (min-width: 567px) {
+	.footer-simple  .col-small.twelve-xs:last-child { text-align: right; }
+}
+
+.group_wrapper { line-height: 33px; display: table; height: 100%; }
